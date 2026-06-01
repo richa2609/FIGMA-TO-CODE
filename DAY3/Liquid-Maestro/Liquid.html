@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liquid Maestro</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="Liquid.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-logo">
+      <img src="./ASSETS/Logo (2).png" alt="Liquid Maestro Logo" />
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" style="background-image: url('./ASSETS/Background\ Image.png');"></div>
+    <div class="hero-overlay"></div>
+
+    <img class="hero-note" src="./ASSETS/note.png" alt="note" />
+    <img class="hero-o-stroke" src="./ASSETS/Ellipse 3.png" alt="O" />
+    <img class="hero-vector" src="./ASSETS/Vector 1.png" alt="line" />
+
+    <div class="hero-content">
+      <p class="hero-tag">Indulge in</p>
+      <h1 class="hero-title">Liquid<br>Artistry</h1>
+      <p class="hero-sub">Step into a world of extraordinary flavors and unrivalled mixology expertise</p>
+      <a href="#bookings" class="btn-explore">Explore</a>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="hero-scroll-line"></div>
+      <div class="hero-scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <img class="about-a-stroke" src="./ASSETS/A (Stroke).png" alt="" />
+
+    <div class="about-image">
+      <img src="./ASSETS/pexels-charlotte-may-5947024 copy 1.png" alt="Signature cocktail" />
+    </div>
+
+    <div class="about-text">
+      <h2>
+        Liquid Maestro, the newest hotspot in downtown
+        <a href="#">Los Angeles</a>. Our skilled mixologists are passionate
+        about crafting exceptional cocktails that will
+        <strong>delight your senses.</strong>
+      </h2>
+      <p>
+        With an ambiance that exudes elegance and a commitment to delivering
+        unforgettable experiences, It is the ultimate destination
+        for cocktail enthusiasts. Join us for an exquisite journey into the
+        world of liquid artistry.
+      </p>
+    </div>
+  </section>
+
+  <!-- IMAGE DIVIDER -->
+  <section class="gallery">
+    <img class="gallery-img" src="./ASSETS/IMAGE DIVIDER.png" alt="Bar scene" />
+  </section>
+
+  <!-- OPENING HOURS -->
+  <section class="hours" id="hours">
+    <img class="hours-ellipse" src="./ASSETS/O (Stroke).png" alt="o stroke" />
+
+    <h2 class="section-title"><span>Opening</span> Hours</h2>
+    <ul class="hours-list">
+      <li><span class="day">Mon – Thu</span><span>5 PM – 12 AM</span></li>
+      <li><span class="day">Fri – Sat</span><span>5 PM – 2 AM</span></li>
+      <li><span class="day">Sun</span><span>Closed</span></li>
+    </ul>
+  </section>
+
+  <!-- COCKTAILS MENU -->
+  <section class="menu-section" id="menu">
+    <div class="menu-container">
+      <h2 class="section-title"><span>Cocktails</span> Menu</h2>
+
+      <div class="menu-display-area">
+        <div class="menu-active-item">
+          <div class="menu-img-frame">
+            <img class="menu-card-img" src="./ASSETS/image 3.png" alt="Symphony in Gold" />
+          </div>
+
+          <div class="menu-details-frame">
+            <h3 class="menu-card-name">Symphony<br>in Gold</h3>
+            <p class="menu-card-desc">Aged bourbon, honey, ginger. Experience the symphony of flavors as aged bourbon
+              blends seamlessly with the sweetness of honey &amp; the subtle spice of ginger.</p>
+          </div>
+        </div>
+
+        <div class="menu-active-item">
+          <div class="menu-img-frame">
+            <img class="menu-card-img" src="./ASSETS/image 8.png" alt="Enchanted Elixir" />
+          </div>
+
+          <div class="menu-details-frame">
+            <h3 class="menu-card-name">Enchanted <br>Elixir</h3>
+            <p class="menu-card-desc">Berries, vodka, elderflower.
+              Let the enchantment unfold as you savor the magical blend of muddled berries, premium vodka, and a hint of
+              elderflower liqueur.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKINGS & CONTACT -->
+  <section class="bookings" id="bookings">
+    <div class="bookings-left">
+      <img class="bookings-b-img" src="./ASSETS/B.png" alt="B letter with cocktail" />
+    </div>
+
+    <div class="bookings-right">
+      <h2 class="section-title"><span>Bookings</span> &amp; Contact</h2>
+
+      <div class="form-group">
+        <label class="form-label" for="name">Name</label>
+        <input class="form-input" id="name" type="text" placeholder="Your full name" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="email">Email</label>
+        <input class="form-input" id="email" type="email" placeholder="richa26rnw@gmail.com" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="phone">Phone</label>
+        <input class="form-input" id="phone" type="tel" placeholder="+91 720305-0000" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="guests">Number of people</label>
+        <input class="form-input" id="guests" type="number" min="1" placeholder="e.g. 4" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="guests">Date and Time </label>
+      </div>
+      <img class="calendar-img" src="./ASSETS/Calendar.png" alt="Calendar" />
+
+      <button class="btn-submit" type="button">Submit</button>
+
+      <div class="contact-info">
+        <h2 class="section-title"><span>Contact</span> info</h2>
+        <div class="contact-block">
+          <p class="label">Phone</p>
+          <a href="tel:+917203050000">+91 720305-0000</a>
+        </div>
+        <div class="contact-block">
+          <p class="label">Email</p>
+          <a href="mailto:info@liquidmaestro.com">info@liquidmaestro.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-bg" style="background-image: url('./ASSETS/footer.png');"></div>
+
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="./ASSETS/Logo (2).png" alt="Liquid Maestro" />
+        <p class="footer-tagline">Indulge in Liquid Artistry</p>
+      </div>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+          </svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+          </svg>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">&copy; 2025 Liquid Maestro. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#hours">Hours</a>
+        <a href="#menu">Menu</a>
+        <a href="#bookings">Bookings</a>
+        <a href="#">Design &amp; Dev</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="Liquid.js"></script>
+</body>
+
+</html>
